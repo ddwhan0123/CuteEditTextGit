@@ -6,9 +6,10 @@ Blog:http://blog.csdn.net/ddwhan0123
 QQ:526357367
 
 
-效果：
 WeChat ID:<br>![WeChatID](https://github.com/ddwhan0123/SoyiGit/blob/master/Soyi/WeChatID.JPG "二维码")
 
+效果：
+[Demo](https://github.com/ddwhan0123/CuteEditTextGit/blob/master/CuteEditTextPro/show.gif "效果")
 >完成功能：
 >>对用户输入字体数进行判断，根据不同字数做不同逻辑<br>
 >>添加删除按钮
