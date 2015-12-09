@@ -207,4 +207,9 @@ public class CuteEditText extends LinearLayout {
     public void setDefault_Hint(String value){
         Default_Hint=value;
     }
+
+    //获取输入端值
+    public String getTextValue(){
+        return editText.getText().toString().trim();
+    }
 }
