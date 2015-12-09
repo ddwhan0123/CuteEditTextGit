@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="cuteEditText">
+        <attr name="text_minLength" format="integer" />
+        <attr name="text_maxLength" format="integer" />
+        <attr name="text_hint" format="string"/>
+        <attr name="text_anim_Type" format="string" />
+        <attr name="text_image_src" format="reference"/>
+    </declare-styleable>
+</resources>

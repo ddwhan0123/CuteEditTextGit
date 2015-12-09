@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CuteEditText</string>
+    <string name="cute_text_hint">帐号</string>
+</resources>
