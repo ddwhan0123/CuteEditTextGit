@@ -150,7 +150,7 @@ public class CuteEditText extends LinearLayout {
                             public void onClick(View v) {
                                 editText.setText("");
                                 imageView.setVisibility(View.GONE);
-                                makeAnim(editText,1000);
+                                makeAnim(editText, 1000);
                             }
                         });
                     }
@@ -183,4 +183,28 @@ public class CuteEditText extends LinearLayout {
 
     }
 
+    //设置动画效果
+    public void setAnim(String anim) {
+        Default_Anim_Type = anim;
+    }
+
+    //获取动画效果
+    public String getAnim() {
+        return Default_Anim_Type;
+    }
+
+    //设置最小值
+    public void setDefault_MinLength(int length){
+        Default_MinLength=length;
+    }
+
+    //设置最大值
+    public void setDefault_MaxLength(int length){
+        Default_MaxLength=length;
+    }
+
+    //设置hint
+    public void setDefault_Hint(String value){
+        Default_Hint=value;
+    }
 }
